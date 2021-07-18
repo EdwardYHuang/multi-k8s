@@ -32,4 +32,4 @@ spec:
                   name: pgpassword
                   key: PGPASSWORD
           # Use locally built image instead of pulling from docker hub
-          imagePullPolicy: Never
+          #imagePullPolicy: Never

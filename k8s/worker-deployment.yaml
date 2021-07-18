@@ -21,4 +21,4 @@ spec:
             - name: REDIS_PORT
               value: '6379'
           # Use locally built image instead of pulling from docker hub
-          imagePullPolicy: Never
+          #imagePullPolicy: Never
