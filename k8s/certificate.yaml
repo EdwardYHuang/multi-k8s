@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: edward-k8s-com-tls
+spec:
+  secretName: edward-k8s-com
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: edwardk8s.com
+  dnsNames:
+    - edwardk8s.com
+    - www.edwardk8s.com
